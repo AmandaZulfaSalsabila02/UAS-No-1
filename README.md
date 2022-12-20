@@ -7,3 +7,5 @@
 
 
 # Deskripsi Umum
+
+Tema utama dari source code yang satu ini adalah untuk membuat array 2 dimensi menggunakan bahasa C++.
