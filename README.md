@@ -21,3 +21,44 @@ Tujuan utama dari source code ini adalah mengubah letak nilai yang tadinya sebua
 
 
 # Source Code
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int input [100][100];
+	int baris, kolom, i, j;
+	
+	cout << "Imput jumlah baris : ";
+	cin >> baris;
+	cout << "Input jumlah kolom : ";
+	cin >> kolom;
+	cout << endl;
+	
+	for (i = 0; i < baris; i++){
+		for (j = 0; j < kolom; j++){
+			cout << "baris" << i+1 << ",kolom" << j+1 << " = ";
+			cin >> input[i][j];
+		}
+		cout << endl;
+	}
+	
+	cout << "Hasil : "<<endl;
+	
+	for (i = 0; i < baris; i++){
+		for (j = 0; j < kolom; j++){
+			cout << " " << input [i][j];
+		}
+		cout << endl;
+	}
+	
+	cout << "=======================" << endl;
+	
+	for (i = 0; i < kolom; i++){
+		for (j = 0; j < baris; j++){
+			cout << " " << input[j][i];
+		}
+		cout << endl;
+	}
+	
+}
