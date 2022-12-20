@@ -11,3 +11,5 @@
 Tema utama dari source code yang satu ini adalah untuk membuat array 2 dimensi menggunakan bahasa C++.
 Tujuan utama dari source code ini adalah mengubah letak nilai yang tadinya sebuah baris menjadi sebuah kolom, begitupun sebaliknya.
 <br> Algoritma dari source code ini yaitu :
+<br> 1. User menginputkan beberapa banyak baris pada array.
+<br> 2. User menginputkan beberapa banayak kolom dari baris pada array.
